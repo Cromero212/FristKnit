@@ -1,0 +1,97 @@
+---
+title: "First Knit"
+author: Corine Romero
+date: 8/19/2019
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey  
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg 
+
+
+
+##Where are you now?  
+What row are you in, front, middle or back?  Do you usually choose a similar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?  
+
+
+
+###my answer      
+I am sitting in the 2nd row of the class on the right hand side. I like to be in the front of the class so I can see and hear what is going on.  I am sitting at computer #15.  On a scale of 1 to 10 I would say that I would be a 1 since my husband helps me with the computer stuff.  I do not have any issues with working in teams as long as the other members are here to learn and not just get a C. I have worked in teams in most of the classes, but have found that I do not like to work with people that are not here to learn. 
+   
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddy’s call you something but you want me to call you something else - what would that be? 
+
+
+
+###my answer     
+I like to be called by my name Corine Romero  
+   
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+My goals are to finish my education. I love to be outside and working with my hands.  Environmental Horticulture is the degree that I am working towards, with a hope to teach someday.
+   
+ 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+I have never been out of this country, but we are planning on going to Italy next Fall.  I am not a military person, I respect them, but I would not join up.  
+   
+  
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+I expect nothing less than an A in all my classes and I strive to archive that. My plan is to get as much help as I need to archive these goals.  
+   
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college? Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+On a scale of 1 to 10 I would say that I am a 2.  I do have a computer, but I find that computers make me very nervous and I do not like to mess with them.. I tend to have my two adult children fix all computer issues or my husband.  I do have internet access at home and I do know how to use that to a point. I use touch screen computers that are PC's. I do not drive and I do depend on my son and husband to get to and from school, since my husband is in this class this should not be an issue.  High school was a long time ago.  I went to Arroyo High School in San Leandro CA.  I graduated in 1995.  My current job is mom and wife to a full house.  I would say that I have a full time job.  
